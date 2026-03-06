@@ -9,8 +9,5 @@ fun main(){
     pila.push("3")
     pila.push("4")
     val numbersRev = reverse(pila.pila)
-    if (listOf("4", "3", "2", "1") != numbersRev)
-        println("Error")
-    else
-        println("Correcto")
+    if (listOf("4", "3", "2", "1") != numbersRev) println("Error") else println("Correcto")
 }
