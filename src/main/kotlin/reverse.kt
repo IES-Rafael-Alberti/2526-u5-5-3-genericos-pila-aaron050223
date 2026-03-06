@@ -1,9 +1,9 @@
 package org.iesra.revilofe
 
 fun <T> reverse(lista: List<T>): MutableList<T>{
-    val listaInvertida: MutableList<T> = mutableListOf<T>()
-    for (i in lista.size-1 downTo 0){
-        listaInvertida.add(lista[i])
+    val listaReves: MutableList<T> = mutableListOf()
+    for (i in lista.size - 1 downTo 0){
+        listaReves.add(lista[i])
     }
-    return listaInvertida
+    return listaReves
 }
