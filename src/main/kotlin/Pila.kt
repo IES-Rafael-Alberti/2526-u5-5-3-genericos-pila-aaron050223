@@ -1,7 +1,7 @@
 package org.iesra.revilofe
 
 class Pila<T>(): Iterable<T> {
-    private val pila = mutableListOf<T>()
+    val pila = mutableListOf<T>()
 
     fun push (cosa: T) {
         pila.add(cosa)
