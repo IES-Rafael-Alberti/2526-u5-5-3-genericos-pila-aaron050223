@@ -19,5 +19,7 @@ class Pila<T>(): Iterable<T> {
 
     fun size() = pila.size
 
-    override fun iterator() = pila.iterator()
+    override fun iterator(): Iterator<T> {
+        return PilaIterator(pila.toMutableList())
+    }
 }
